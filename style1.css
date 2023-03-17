@@ -11,11 +11,11 @@ header {
     padding: 150px 0 0 0;
 }
 .header_container {
-    max-width: 500px;
+    max-width: 80%;
     padding: 0 0 50px 50px;
 }
 .main_container {
-    max-width: 600px;
+    max-width: 100%;
     padding: 0 50px 100px 0;
     font-size: 24px;
 }
