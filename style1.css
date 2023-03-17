@@ -1,0 +1,690 @@
+body {
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 18px;
+}
+.general_flex {
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    padding: 150px 0 0 0;
+}
+.header_container {
+    max-width: 500px;
+    padding: 0 0 50px 50px;
+}
+.main_container {
+    max-width: 600px;
+    padding: 0 50px 100px 0;
+    font-size: 24px;
+}
+main {
+    padding: 150px 0;
+}
+h1 {
+    font-size: 72px;
+    letter-spacing: 1rem;
+}
+.nataly_dan_foto {
+    text-align: center;
+}
+.nataly_dan_title {
+    text-align: center;
+}
+.nataly_dan_text {
+    font-size: 24px;
+    letter-spacing: 0.5rem;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.background_blue {
+    width: 550px;
+    background: url('./other/tlo.png');
+    margin-left: 0px;
+    padding-top: 30px;
+    position: relative;
+}
+.contact_title {
+    width: 450px;
+    height: 60px;
+    color: #fff;
+    background: #424243;
+    text-align: center;
+    line-height: 60px;
+}
+.contact_title_absolut {
+    line-height: 20px;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+.adress {
+    background: url('./icons/adress.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 20px;
+    padding: 20px 0 0 30px;
+}
+.tell {
+    background: url('./icons/phone.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 20px;
+    padding: 20px 0 0 30px; 
+}
+.mail{
+    background: url('./icons/mail.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 20px;
+    padding: 15px 0 0 30px;
+}
+.site {
+    background: url('./icons/site.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 20px;
+    padding: 20px 0 0 30px;
+}
+.facebook {
+    background: url('./icons/facebook.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 20px;
+    padding: 20px 0 0 30px;
+}
+.linkedin {
+    background: url('./icons/twitter.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 20px;
+    padding: 20px 0 0 30px;
+}
+.ukrainian {
+    background: url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px;
+    padding: 20px 0 0 0;
+}
+.russian {
+    background: url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/bile_kolo.png'), url('./other/bile_kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px;
+    padding: 20px 0 0 0;
+}
+.english {
+    background: url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/bile_kolo.png'), url('./other/bile_kolo.png'), url('./other/bile_kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px;
+    padding: 20px 0 0 0;
+}
+.deutsch {
+    background: url('./other/sire_kolo.png'), url('./other/bile_kolo.png'), url('./other/bile_kolo.png'), url('./other/bile_kolo.png'), url('./other/bile_kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px;
+    padding: 20px 0 0 0;
+}
+.hobbies_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobbies p {
+    width: 40%;
+}
+.about_me_title {
+    background: url('./icons/about_me.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left 20px;
+    padding: 20px 0 50px 50px;
+}
+.about_me_text {
+    text-align: justify;
+}
+.about_me_title h2 {
+    margin-top: 0;
+    margin-left: 20px;
+    border-bottom: solid;
+}
+.education_title {
+    background: url('./icons/education.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left 20px;
+    padding: 20px 0 50px 50px;
+}
+.education_title h2 {
+    margin-top: 0;
+    margin-left: 20px;
+    border-bottom: solid;
+}
+.education_text li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+.education_text li:last-child {
+    padding-bottom: 0px;
+}
+.expirience_title {
+    background: url('./icons/expiriens.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left 20px;
+    padding: 20px 0 50px 50px;
+}
+.expirience_title h2 {
+    margin-top: 0;
+    margin-left: 20px;
+    border-bottom: solid;
+}
+.skills_title {
+    background: url('./icons/skills.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left 20px;
+    padding: 20px 0 50px 50px;
+}
+.skills_title h2 {
+    margin-top: 0;
+    margin-left: 20px;
+    border-bottom: solid;
+}
+.html {
+    background: url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+}
+.css {
+    background: url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/svitlo-sire-kolo.png'), url('./other/svitlo-sire-kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+}
+.javascript {
+    background: url('./other/sire_kolo.png'), url('./other/sire_kolo.png'), url('./other/svitlo-sire-kolo.png'), url('./other/svitlo-sire-kolo.png'), url('./other/svitlo-sire-kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+}
+.figma {
+    background: url('./other/sire_kolo.png'), url('./other/svitlo-sire-kolo.png'), url('./other/svitlo-sire-kolo.png'), url('./other/svitlo-sire-kolo.png'), url('./other/svitlo-sire-kolo.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+}
+.skills_text_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.skills_text {
+    width: 50%;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main_container {
+        max-width: 450px; 
+        font-size: 20px;
+}
+}
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 62px;
+}
+}
+@media (max-width: 1024px) {
+    .nataly_dan_text {
+        font-size: 32px;
+}
+}
+@media (max-width: 1024px) {
+    .background_blue {
+        width: 500px;
+}
+}
+@media (max-width: 1024px) {
+    .contact_title {
+        width: 400px;
+}
+}
+@media (max-width: 1024px) {
+    .ukrainian {
+        background-position: 150px 20px, 200px 20px, 250px 20px, 300px 20px, 350px 20px; 
+}
+}
+@media (max-width: 1024px) {
+    .russian {
+        background-position: 150px 20px, 200px 20px, 250px 20px, 300px 20px, 350px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .english {
+        background-position: 150px 20px, 200px 20px, 250px 20px, 300px 20px, 350px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .deutsch {
+        background-position: 150px 20px, 200px 20px, 250px 20px, 300px 20px, 350px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .hobbies p {
+        width: 50%;
+}
+}
+@media (max-width: 1024px) {
+    .about_me_title {
+        background-size: 40px;
+}
+}
+@media (max-width: 1024px) {
+    .education_title {
+        background-size: 40px;
+}
+}
+@media (max-width: 1024px) {
+    .expirience_title {
+        background-size: 40px;
+}
+}
+@media (max-width: 1024px) {
+    .skills_title {
+        background-size: 40px;
+}
+}
+@media (max-width: 1024px) {
+    .html {
+        background-size: 12px;
+        background-position: 200px 20px, 220px 20px, 240px 20px, 260px 20px, 280px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .css {
+        background-size: 12px;
+        background-position: 200px 20px, 220px 20px, 240px 20px, 260px 20px, 280px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .javascript {
+        background-size: 12px;
+        background-position: 200px 20px, 220px 20px, 240px 20px, 260px 20px, 280px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .figma {
+        background-size: 12px;
+        background-position: 200px 20px, 220px 20px, 240px 20px, 260px 20px, 280px 20px;
+}
+}
+@media (max-width: 1024px) {
+    .skills_text_flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+}
+}
+@media (max-width: 1024px) {
+    .skills_text{
+        width: 80%;
+}
+
+
+@media (max-width: 768px) {
+    .general_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        padding: 100px 0 0 0;
+    }
+}
+@media (max-width: 768px) {
+    .header_container {
+        max-width: 100%;
+        padding: 0 0 50px 0px;
+    }
+}
+@media (max-width: 768px) {
+    .main_container {
+        max-width: 100%;
+        font-size: 24px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .background_blue {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .contact_title {
+        margin: 0 auto;
+}
+}
+@media (max-width: 768px) {
+    .contact_title_absolut {
+        left: 23%;
+    }
+}
+@media (max-width: 768px) {
+    .adress {
+        background-position: 50px 20px;
+        padding: 20px 0 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    .tell {
+        background-position: 50px 20px;
+        padding: 20px 0 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    .mail {
+        background-position: 50px 20px;
+        padding: 15px 0 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    .site {
+        background-position: 50px 20px;
+        padding: 20px 0 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    .facebook {
+        background-position: 50px 20px;
+        padding: 20px 0 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    .linkedin {
+        background-position: 50px 20px;
+        padding: 20px 0 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    .ukrainian {
+        padding: 20px 0 0 50px;
+}
+}
+@media (max-width: 768px) {
+    .russian {
+        padding: 20px 0 0 50px;
+}
+}
+@media (max-width: 768px) {
+    .english {
+        padding: 20px 0 0 50px;
+}
+}
+@media (max-width: 768px) {
+    .deutsch {
+        padding: 20px 0 0 50px;
+}
+}
+@media (max-width: 768px) {
+    .hobbies_content {
+        padding-left: 50px;
+}
+}
+@media (max-width: 768px) {
+    .skills_text{
+        width: 50%;
+}
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 72px;
+}
+}
+@media (max-width: 600px) {
+    .contact_title {
+        width: 450px;
+}
+}
+@media (max-width: 600px) {
+    .contact_title_absolut {
+        left: 12%;
+    }
+}
+@media (max-width: 600px) {
+    .ukrainian {
+        background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px; 
+}
+}
+@media (max-width: 600px) {
+    .russian {
+        background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px; 
+}
+}
+@media (max-width: 600px) {
+    .english {
+        background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px; 
+}
+}
+@media (max-width: 600px) {
+    .deutsch {
+        background-position: 200px 20px, 250px 20px, 300px 20px, 350px 20px, 400px 20px; 
+}
+}
+@media (max-width: 600px) {
+    .html {
+        background-size: 16px;
+        background-position: 130px 20px, 150px 20px, 170px 20px, 190px 20px, 210px 20px;
+}
+}
+@media (max-width: 600px) {
+    .css {
+        background-size: 16px;
+        background-position: 130px 20px, 150px 20px, 170px 20px, 190px 20px, 210px 20px;
+}
+}
+@media (max-width: 600px) {
+    .javascript {
+        background-size: 16px;
+        background-position: 130px 20px, 150px 20px, 170px 20px, 190px 20px, 210px 20px;
+}
+}
+@media (max-width: 600px) {
+    .figma {
+        background-size: 16px;
+        background-position: 130px 20px, 150px 20px, 170px 20px, 190px 20px, 210px 20px;
+}
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 50px 0 0 0;
+    }
+}
+@media (max-width: 480px) {
+    .main_container {
+        font-size: 22px;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 52px;
+        letter-spacing: 0.5rem;
+}
+}
+@media (max-width: 480px) {
+    .nataly_dan_foto img {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .nataly_dan_text {
+        font-size: 20px;
+        letter-spacing: 0.2rem;
+}
+}
+@media (max-width: 480px) {
+    .contact_title {
+        width: 300px;
+}
+}
+@media (max-width: 480px) {
+    .contact_title_absolut {
+        left: 20%;
+    }
+}
+@media (max-width: 480px) {
+    .html {
+        background-size: 18px;
+        background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+}
+}
+@media (max-width: 480px) {
+    .css {
+        background-size: 18px;
+        background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+}
+}
+@media (max-width: 480px) {
+    .javascript {
+        background-size: 18px;
+        background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+}
+}
+@media (max-width: 480px) {
+    .figma {
+        background-size: 18px;
+        background-position: 140px 20px, 170px 20px, 200px 20px, 230px 20px, 260px 20px;
+}
+}
+@media (max-width: 480px) {
+    .skills_text{
+        width: 80%;
+}
+}
+
+
+}@media (max-width: 320px) {
+    h1 {
+        font-size: 42px;
+        letter-spacing: 0.3rem;
+    }
+}
+@media (max-width: 320px) {
+    .nataly_dan_foto img {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 320px) {
+    .nataly_dan_text {
+        font-size: 18px;
+}
+}
+@media (max-width: 320px) {
+    .contact_title {
+        width: 200px;
+}
+}
+@media (max-width: 320px) {
+    .ukrainian {
+        background-size: 16px;
+        background-position: 170px 20px, 200px 20px, 230px 20px, 260px 20px, 290px 20px; 
+}
+}
+@media (max-width: 320px) {
+    .russian {
+        background-size: 16px;
+        background-position: 170px 20px, 200px 20px, 230px 20px, 260px 20px, 290px 20px; 
+}
+}
+@media (max-width: 320px) {
+    .english {
+        background-size: 16px;
+        background-position: 170px 20px, 200px 20px, 230px 20px, 260px 20px, 290px 20px; 
+}
+}
+@media (max-width: 320px) {
+    .deutsch {
+        background-size: 16px;
+        background-position: 170px 20px, 200px 20px, 230px 20px, 260px 20px, 290px 20px; 
+}
+}
+@media (max-width: 320px) {
+    .about_me_text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .about_me_title h2  {
+        font-size: 32px;
+    }
+}
+@media (max-width: 320px) {
+    .education_title h2  {
+        font-size: 32px;
+    }
+}
+@media (max-width: 320px) {
+    .education_text li {
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .expirience_title h2  {
+        font-size: 32px;
+    }
+}
+@media (max-width: 320px) {
+    .expirience_text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .skills_title h2  {
+        font-size: 32px;
+    }
+}
+@media (max-width: 320px) {
+    .html {
+        background-size: 16px;
+}
+}
+@media (max-width: 320px) {
+    .css {
+        background-size: 16px;
+}
+}
+@media (max-width: 320px) {
+    .javascript {
+        background-size: 16px;
+}
+}
+@media (max-width: 320px) {
+    .figma {
+        background-size: 16px;
+}
+}
+@media (max-width: 320px) {
+    .skills_text{
+        width: 100%;
+}
+}
